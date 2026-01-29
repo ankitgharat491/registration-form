@@ -1,27 +1,22 @@
 /* style.css */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;   /* हल्का grey background */
   margin: 0;
-}
-
-.form-container {
-  background: #fff;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-  width: 420px;
-  animation: fadeIn 1s ease-in-out;
+  padding: 0;
 }
 
 h1 {
   text-align: center;
-  margin-bottom: 25px;
   color: #333;
+}
+
+.form-container {
+  width: 400px;
+  margin: 20px auto;           /* बीच में लाने के लिए */
+  background-color: white;
+  border: 1px solid #ccc;      /* simple border */
+  padding: 20px;
 }
 
 .form-group {
@@ -29,44 +24,27 @@ h1 {
 }
 
 label {
-  font-weight: 600;
   display: block;
-  margin-bottom: 6px;
-  color: #444;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 
 input, select, textarea {
   width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 14px;
-  transition: border-color 0.3s;
-}
-
-input:focus, select:focus, textarea:focus {
-  border-color: #007BFF;
-  outline: none;
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
 }
 
 button {
   width: 100%;
-  padding: 12px;
-  background: #007BFF;
+  padding: 10px;
+  background-color: #4CAF50;   /* simple green button */
   color: white;
   border: none;
-  border-radius: 6px;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background 0.3s;
+  border-radius: 4px;
 }
 
 button:hover {
-  background: #0056b3;
-}
-
-@keyframes fadeIn {
-  from {opacity: 0; transform: translateY(-20px);}
-  to {opacity: 1; transform: translateY(0);}
+  background-color: #45a049;   /* हल्का hover effect */
 }
