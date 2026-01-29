@@ -1,7 +1,7 @@
 /* style.css */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f2f2f2;   /* हल्का grey background */
+  background-color: #f2f2f2;   
   margin: 0;
   padding: 0;
 }
@@ -13,9 +13,9 @@ h1 {
 
 .form-container {
   width: 400px;
-  margin: 20px auto;           /* बीच में लाने के लिए */
+  margin: 20px auto;           
   background-color: white;
-  border: 1px solid #ccc;      /* simple border */
+  border: 1px solid #ccc;      
   padding: 20px;
 }
 
@@ -39,12 +39,12 @@ input, select, textarea {
 button {
   width: 100%;
   padding: 10px;
-  background-color: #4CAF50;   /* simple green button */
+  background-color: #4CAF50;  
   color: white;
   border: none;
   border-radius: 4px;
 }
 
 button:hover {
-  background-color: #45a049;   /* हल्का hover effect */
+  background-color: #45a049;   
 }
